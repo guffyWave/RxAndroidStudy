@@ -17,4 +17,29 @@
         android:layout_marginStart="18dp"
         android:onClick="clickMe"
         android:text="Button" />
+
+    <Button
+        android:text="Button 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:onClick="clickMe2"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="Button 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="37dp"
+        android:onClick="clickMe3"
+        android:id="@+id/button3" />
+
+
 </RelativeLayout>
